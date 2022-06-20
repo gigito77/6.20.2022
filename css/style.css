@@ -9,7 +9,7 @@ body{
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: 6px black dashed;
+    border: 5px black solid;
     animation: headborderanimation 4s alternate infinite;
 }
 @keyframes headborderanimation {
