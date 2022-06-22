@@ -59,3 +59,48 @@ body{
       transform: translateY(-30px)
     }
   }
+
+
+
+.test{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+
+
+
+#myimg{
+  width: 30%;
+  height: 800px;
+  margin-left: 15px;
+  border: 8px solid black;
+  border-radius: 200px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  animation: mymove 10s alternate infinite;
+  box-shadow: 0px 10px 20px 0px rgba(212, 0, 255, 0.7);
+  
+
+}
+@keyframes mymove {
+    0% {
+      object-position: 0% 0%;
+    }
+    25% {
+      object-position: 20% 0%;
+    }
+    100% {
+      object-position: 100% 100%;
+    }
+
+    0% {border-right-color: rgb(255, 0, 200);}
+    25% {border-top-color: rgb(255, 5, 192);}
+    50% {border-left-color: rgb(162, 0, 255);}
+    75% {border-bottom-color: rgb(113, 13, 243);}
+    100% {border-bottom-color: rgb(255, 0, 200);}
+}
